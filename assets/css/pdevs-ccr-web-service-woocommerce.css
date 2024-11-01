@@ -1,0 +1,59 @@
+.ccr-ws-settings {
+    margin: 20px 20px 0 2px;
+}
+.ccr-ws-settings .ccr-main-title {
+    display: block;
+    background: url(../images/icon-large-ccr.jpg) 100% no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding-left: 42px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.ccr-ws-settings .row {
+    margin-left: -20px;
+    margin-right: -20px;
+    float: none;
+}
+.ccr-ws-settings .col {
+    padding: 0 20px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ccr-ws-settings .col-4 {
+    width: 66.666%;
+}
+.ccr-ws-settings .col-2 {
+    width: 33.333%;
+}
+.ccr-ws-settings .sidebar  {
+    border-left: 1px solid #ccc;
+}
+.ccr-ws-settings .sidebar>div  {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.ccr-ws-settings .sidebar>div h4 {
+     font-size: 16px;
+     margin-bottom: 0;
+}
+.ccr-ws-settings .sidebar>div img {
+    width: 100%;
+    height: auto;
+}
+.icon-pdevs {
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 1200px) {
+    .ccr-ws-settings .col {
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+}
